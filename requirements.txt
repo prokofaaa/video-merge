@@ -1,7 +1,8 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-torch==2.2.2+cpu
+# ↑ оставляем эту строку обязательно!
+
+torch==1.13.1+cpu
+openai-whisper==20230314
 flask==3.0.3
 requests
-openai-whisper==20230314
-
