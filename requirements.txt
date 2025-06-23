@@ -1,7 +1,5 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-
-# ↑ оставляем эту строку обязательно!
-
+# requirements.txt – финальная версия
+numpy<2.0               # ← добавили ЭТУ строку (до Torch/Whisper)
 torch==1.13.1+cpu
 openai-whisper==20230314
 flask==3.0.3
