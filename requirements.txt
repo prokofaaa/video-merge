@@ -1,5 +1,5 @@
-# requirements.txt – финальная версия
-numpy<2.0               # ← добавили ЭТУ строку (до Torch/Whisper)
+# requirements.txt
+numpy<2.0          # фиксируем 1-ю ветку!
 torch==1.13.1+cpu
 openai-whisper==20230314
 flask==3.0.3
