@@ -1,5 +1,5 @@
-# requirements.txt
-numpy==1.26.4          # ← фиксируем 1.x
+# requirements.txt – финальная версия
+numpy==1.26.4          # ← понизили!
 torch==1.13.1+cpu
 openai-whisper==20230314
 flask==3.0.3
